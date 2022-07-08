@@ -1,0 +1,73 @@
+/* font-family: 'Nanum Gothic', sans-serif; */
+
+
+body {
+    font-size: 14px;
+    font-family: 'Nanum Gothic';
+    color: #222;
+    letter-spacing: -0.05em;
+    min-width: 1152px;
+}
+.blind{
+    position: absolute;   
+    width: 1px;height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+
+
+
+.common-inner{
+    width: 1152px;
+    margin: 0 auto;
+}
+
+
+
+.header-area .logo,
+.header-area .search-wrap button,
+.board-area .more-btn,
+.main-visual .control-area .btn.prev::after,
+.footer-area .inquiry,
+.sc-banner .btn{
+    background-image: url(../images/logo/sprite01.png);
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+.sc-service .link-service::before{
+    content: '';
+    display: block;
+    background-image: url(../images/icon/service-sprite.png);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 10px;
+}
+
+
+
+.media-area .link-sns::after,
+.media-area .link-icon{
+    background-image: url(../images/icon/media-sns.png);
+    background-repeat: no-repeat;
+}
+
+
+.main-visual .slide1 .slide-title a::before,
+.main-visual .slide2 .slide-title a::before{
+    background-image: url(../images/icon/sprite02.png);
+    background-repeat: no-repeat;
+}
+
+
+
+.footer-area .link-fsns{
+    background-image: url(../images/icon/footer-sprite.png);
+    background-repeat: no-repeat;
+}
